@@ -9,5 +9,19 @@
 ![alt text](image.png)
 
 ### step 2.
-#### created a database.py file
-2. 
+####  Implement CRUD Wrapper Functions
+1. Install mysql-connector-python:
+``` pip install mysql-connector-python ```
+2. created a database.py module
+
+Create a Python module database.py to implement the database connection and
+CRUD operations.
+
+### Step 3
+#### Develop RESTful APIs with FastAPI
+1. Install FastAPI and Uvicorn:
+    ``` pip install fastapi uvicorn ```
+2. Created FastAPI Application: Created a file named main.py
+
+3. Run the FastAPI Application:
+uvicorn main:app --reload
