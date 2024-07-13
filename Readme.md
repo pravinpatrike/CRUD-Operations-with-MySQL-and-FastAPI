@@ -26,3 +26,27 @@ CRUD operations.
 
 3. Run the FastAPI Application:
 uvicorn main:app --reload
+![alt text](image-1.png)
+
+#### Step 4: Test the Application
+1. Create a Student:
+ ``` curl -X POST "http://127.0.0.1:8000/students/" -H "accept:
+application/json" -H "Content-Type: application/json" -d
+'{"name":"John Doe","age":21,"grade":"A"}' ``` 
+
+2. Get All Students:
+ ``` curl -X GET "http://127.0.0.1:8000/students/" -H "accept:
+application/json" ``` 
+
+3. Get a Student by ID:
+ ``` curl -X GET "http://127.0.0.1:8000/students/1" -H "accept:
+application/json" ``` 
+
+4. Update a Student:
+ ``` curl -X PUT "http://127.0.0.1:8000/students/1" -H "accept:
+application/json" -H "Content-Type: application/json" -d
+'{"name":"Jane Doe","age":22,"grade":"A+"}' ``` 
+
+Delete a Student:
+ ``` curl -X DELETE "http://127.0.0.1:8000/students/1" -H "accept:
+application/json" ``` 
