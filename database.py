@@ -5,7 +5,7 @@ def create_connection():
     connection = None
     try:
         connection = mysql.connector.connect(
-        host="localInstance2",
+        host="127.0.0.1",
         user="root",
         password="root",
         database="school"
