@@ -28,7 +28,7 @@ def execute_query(connection, query, values=None):
         print(f"The error '{e}' occurred")
 
 def fetch_query(connection, query, values=None):
-    cursor = connection.cursor(dictionary=True)
+    cursor = connection.cursor(dictionary=True,buffered=True)
     result = None
     try:
         if values:
@@ -44,7 +44,7 @@ def fetch_query(connection, query, values=None):
 # adding the CRUD functions
 
 def create_student(connection, name, age, grade):
-    query = "INSERT INTO students (name, age, grade) VALUES (%s, %d, %s)"
+    query = "INSERT INTO students (name, age, grade) VALUES (%s, %s, %s)"
     values = (name, age, grade)
     execute_query(connection, query, values)
 

@@ -1,4 +1,10 @@
-#### Pravin Patrike (25PGAI0008)
+### Group members:
+#### Pravin Patrike 
+#### Kunal Deshmukh 
+#### Shikha Thakur 
+#### Krunal Name
+### Pranjal Griver 
+
 ### CRUD Operations with MySQL and FastAPI
 
 ### step 1.
@@ -26,7 +32,7 @@ CRUD operations.
 
 3. Run the FastAPI Application:
 uvicorn main:app --reload
-![alt text](image-1.png)
+![alt text](image-3.png)
 
 #### Part 4: Test the Application
 ```
