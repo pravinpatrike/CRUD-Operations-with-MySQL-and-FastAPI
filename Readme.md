@@ -59,5 +59,23 @@ curl -X DELETE "http://127.0.0.1:8000/students/1" -H "accept:
 application/json"
 
 ```
+Screenshots -
+Post (Create) -
+![alt text](image-5.png)
+
+Get (Read)-
+![alt text](image-6.png)
+
+Update -
+![alt text](image-7.png)
+
+Delete -
+![alt text](image-8.png)
+
+delete successful-
+![alt text](image-9.png)
+---
+![alt text](image-10.png)
+![alt text](image-11.png)
 
 
