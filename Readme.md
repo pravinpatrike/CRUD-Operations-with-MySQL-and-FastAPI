@@ -8,7 +8,7 @@
 #### Pranjal Grover 
 
 ### assigbment 6 video link -
-[ Video Link ]([https://website-name.com](https://1drv.ms/v/c/af59b0c845464bc4/Ee_aPF1PbjNLuloyM-IUPzwBa1_LCTWhaGmM0GA2Gv-kKA?e=Om5GiE)
+[ Video Link ]([(https://1drv.ms/v/c/af59b0c845464bc4/Ee_aPF1PbjNLuloyM-IUPzwBa1_LCTWhaGmM0GA2Gv-kKA?e=Om5GiE])
 
 ### assignment 5 -
 
